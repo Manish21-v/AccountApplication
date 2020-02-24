@@ -41,6 +41,22 @@ class Account
     end
   end
 
+   #withdraw
+  def withdraw
+    puts "pls insert password"
+    pass=gets.chomp.to_f
+    if(pass==2.2)
+        puts "insert amount"
+        amount=gets.chomp().to_i
+        @balance-=amount
+        puts "trasaction done "
+        puts "remaining balace is #{@balance}"
+    else
+        puts "bhai password galat hai"
+    end
+  end
+
+
   def checkbalance 
     if @balance>1000
         puts "balance is = #{@balance}"
@@ -55,3 +71,4 @@ Acc.show_interestRate();
 Acc.checkbalance()
 Acc.fixeddeposit()
 Acc.show_account_details()
+Acc.withdraw()
