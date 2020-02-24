@@ -23,20 +23,14 @@ class Account
 
             @account_Type="Saving";
         end
-    
         def show_interestRate()
             amount=@balance*Interest_rate;
             puts " Your interest on the Balance : #{@balance +amount}";
         end
-
-
 end
-
-acc = Account.new(10,"onkar",10000)
-
-acc.fixeddeposite()
 Acc=Account.new(1000,"Ramesh",5000);
 Acc.show_interestRate();
+Acc.fixeddeposite()
 
 
 
