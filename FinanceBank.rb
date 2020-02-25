@@ -73,6 +73,10 @@ class Account
   def jitendra
     puts "Jitendra Subhash Bunde"
   end
+
+  def manish
+	  puts "manish vitkar"
+  end
 end
 
 Acc=Account.new(1000,"Ramesh",5000);
