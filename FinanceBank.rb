@@ -64,6 +64,10 @@ class Account
         puts "Not enough amount less than 1000 i.e. = #{@balance}"
     end
   end
+
+  def print_rohit
+    puts "Printed by Rohit Joshi"
+  end
 end
 
 Acc=Account.new(1000,"Ramesh",5000);
