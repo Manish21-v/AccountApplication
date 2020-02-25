@@ -1,6 +1,11 @@
 
 class Account 
   Interest_rate=0.06;
+  
+  def bankname()
+    puts "Welcome to Finance Bank"
+    
+  end
 
   def initialize(id,name,balance)
       @account_id=id;
@@ -67,6 +72,7 @@ class Account
 end
 
 Acc=Account.new(1000,"Ramesh",5000);
+Acc.bankname()
 Acc.show_interestRate();
 Acc.checkbalance()
 Acc.fixeddeposit()
