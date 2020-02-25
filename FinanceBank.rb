@@ -73,6 +73,10 @@ class Account
   def print_rohit
     puts "Printed by Rohit Joshi"
   end
+  
+  def myname
+    puts "Myname is subhajit"
+ end
 end
 
 Acc=Account.new(1000,"Ramesh",5000);
@@ -82,3 +86,4 @@ Acc.checkbalance()
 Acc.fixeddeposit()
 Acc.show_account_details()
 Acc.withdraw()
+Acc.myname()
