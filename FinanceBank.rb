@@ -69,6 +69,9 @@ class Account
         puts "Not enough amount less than 1000 i.e. = #{@balance}"
     end
   end
+  def myname
+    puts "Myname is subhajit"
+ end
 end
 
 Acc=Account.new(1000,"Ramesh",5000);
@@ -78,3 +81,4 @@ Acc.checkbalance()
 Acc.fixeddeposit()
 Acc.show_account_details()
 Acc.withdraw()
+Acc.myname()
